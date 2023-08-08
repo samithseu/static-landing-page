@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="samithseu" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./img/title-icon/site-icon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- WRAPPER -->
+    <div class="wrapper">
+      <header id="home" class="header">
+        <nav class="nav">
+          <div class="container nav-container">
+            <a href="./index.html" class="logo">
+              <img src="./img/svg/logo-white.svg" alt="Startup" />
+            </a>
+
+            <ul class="nav-links">
+              <li class="nav-link">
+                <a href="./index.html#home">home</a>
+              </li>
+              <li class="nav-link">
+                <a href="./index.html#about">about</a>
+              </li>
+              <li class="nav-link">
+                <a href="./index.html#pricing">pricing</a>
+              </li>
+              <li class="nav-link">
+                <a href="./index.html#support">support</a>
+              </li>
+              <li class="nav-link sub-menu-container">
+                <p>
+                  pages
+                  <i class="fa-solid fa-angle-down"></i>
+                </p>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="./signin.html">sign in page</a>
+                  </li>
+                  <li>
+                    <a href="./signup.html">sign up page</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <div class="register">
+              <a href="./signin.html" class="btn sign_in">sign in</a>
+              <a href="./signup.html" class="btn sign_up">sign up</a>
+            </div>
+
+            <div class="burger__menu">
+              <div class="line line1"></div>
+              <div class="line line2"></div>
+              <div class="line line3"></div>
+            </div>
+          </div>
+        </nav>
+        <section class="signin-form">
+          <div class="signin-form-container">
+            <form method="POST" action="#">
+              <!-- FORM HEADER -->
+              <div class="form-header">
+                <h1>Create your account</h1>
+                <h5>It's totally free and super easy</h5>
+              </div>
+              <!-- FORM HERO -->
+              <div class="form-hero">
+                <button class="btn with-google">
+                  <img src="./img/svg/google.svg" alt="" />
+                  <span>Sign up with Google</span>
+                </button>
+                <div class="with-email">
+                  <hr />
+                  <span>Or, register with your email</span>
+                  <hr />
+                </div>
+              </div>
+              <!-- FORM INPUT -->
+              <div class="form-input">
+                <div class="input-row">
+                  <label for="fullname">full name</label>
+                  <input
+                    autofocus
+                    type="text"
+                    name="fullname"
+                    id="fullname"
+                    placeholder="Enter your full name"
+                    required
+                  />
+                </div>
+                <div class="input-row">
+                  <label for="email">work email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter your Email"
+                    required
+                  />
+                </div>
+                <div class="input-row">
+                  <label for="password">your password</label>
+                  <input
+                    type="password"
+                    minlength="8"
+                    name="password"
+                    id="password"
+                    placeholder="Enter your Password"
+                    required
+                  />
+                </div>
+                <div class="option">
+                  <div style="align-items: start" class="remember">
+                    <input type="checkbox" name="remember" id="remember" />
+                    <label for="remember"
+                      >By creating account means you agree to the
+                      <a href="#">Terms and Conditions</a>, and our
+                      <a href="#">Privacy Policy</a></label
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- FORM FOOTER -->
+              <div class="form-footer">
+                <button class="btn btn-signin">Sign up</button>
+                <p>
+                  Already have an account ?
+                  <a href="./signin.html">Sign in</a>
+                </p>
+              </div>
+            </form>
+          </div>
+        </section>
+      </header>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/signup.js"></script>
+  </body>
+</html>
