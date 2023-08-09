@@ -19,6 +19,8 @@ const burgerLine3 = document.querySelector(".line3");
 const subMenuContainer = document.querySelector(".sub-menu-container");
 const subMenu = document.querySelector(".sub-menu");
 
+const scrollAniElements = document.querySelectorAll(".scroll-animate");
+
 function disableInput(input) {
   input.setAttribute("disabled", "");
 }
@@ -51,3 +53,17 @@ subscribeForm.addEventListener("submit", (e) => {
     disableInput(input);
   });
 });
+
+// appear on scroll
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("scroll-show");
+    }
+    //  else {
+    //   entry.target.classList.remove("scroll-show");
+    // }
+  });
+});
+scrollAniElements.forEach((el) => observer.observe(el));

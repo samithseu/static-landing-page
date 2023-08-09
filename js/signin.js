@@ -1,3 +1,4 @@
+const signinSection = document.querySelector(".sign-form-container");
 const signinForm = document.querySelector(".signin-form-container form");
 const signinHeader = document.querySelector(".form-header h1");
 const signinInputs = document.querySelectorAll(".input-row input");
