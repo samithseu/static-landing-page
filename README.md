@@ -7,4 +7,4 @@ This website was created when I was learning `Internet programming I` at my coll
 - `JavaScript`
 
 # Reference & Credit
-- Original site : <https://startup-tailwind.preview.uideck.com>
+- Original site : <a href="https://startup-tailwind.preview.uideck.com" target="_blank">https://startup-tailwind.preview.uideck.com</a>
