@@ -1,5 +1,5 @@
 # Static Landing Page
-This website was created when I was learning `Internet programming I` at my college to create a static website from scractch.
+This website was created when I was learning `Internet programming I` at my college to create a static website from scratch.
 
 # Technology
 - `HTML`
