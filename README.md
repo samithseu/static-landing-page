@@ -12,4 +12,4 @@ This website was created when I was learning `Internet programming I` at my coll
 
 # Reference & Credit
 
-- Original site : <a href="https://startup-tailwind.preview.uideck.com" target="_blank">https://startup-tailwind.preview.uideck.com</a>
+- Inspired design : <a href="https://startup-tailwind.preview.uideck.com" target="_blank">https://startup-tailwind.preview.uideck.com</a>
